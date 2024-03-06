@@ -1,2 +1,2 @@
 # protein-design-vae
-Generative, unsupervised latent variable model for protein sequences
+Generative, unsupervised latent variable model for protein sequences. Work in progress ...
