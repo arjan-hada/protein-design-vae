@@ -14,10 +14,11 @@ This repository hosts the implementation of a Variational Autoencoder (VAE) spec
 
 🔹 **High-Quality MSAs**: We develop a robust methodology for constructing high-quality multiple sequence alignments using BLAST High Scoring Pairs (HSPs). This approach focuses on retaining informative alignments from HSPs while excluding those aligning with query sequence gaps.
   
-🔹 **Advanced VAE Model**: The convolutional VAE implemented here achieves approximately 95% average sequence recovery. The VAE consists of an **encoder** that maps protein sequences to a latent space and a **decoder** that reconstructs sequences from the latent representations. The training objective is to minimize reconstruction loss and force the VAE to learn a distribution that is close to a standard normal distribution.
+🔹 **VAE Model**: The convolutional VAE implemented here achieves approximately 95% average sequence recovery. The VAE consists of an **encoder** that maps protein sequences to a latent space and a **decoder** that reconstructs sequences from the latent representations. The training objective is to minimize reconstruction loss and force the VAE to learn a distribution that is close to a standard normal distribution.
   
 🔹 **Optimized Training**: Utilization of a [learning rate finder](https://arxiv.org/abs/1708.07120) and the implementation of a [1cycle training policy](https://arxiv.org/abs/1506.01186), as proposed by Leslie Smith and facilitated by the fastai library.
 
-![VAE_query sequence_recovery](imgs/VAE_query sequence_recovery.png)
+![VAE_query sequence_recovery](imgs/VAE_query_sequence_recovery.png)
+
 ![VAE_reconstructed_sequence_recovery](imgs/VAE_reconstructed_sequence_recovery.png)
 
